@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html>
-<body>
-    <nav>
-<a href="" class="aboutlink">About</a>
-<a href="" class="storelink">Store</a>
-<a href="" class="gmaillink">Gmail</a>
-<a href="" class="imageslink">Images</a>
-    </nav>
-    <div>
-<img class="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-    </div>
-    <div>
-        <input type="submit" value="Search">
-    </div> 
-    <div>
-    <input type="text" placeholder="Search" name="searchform" id="searchform" required>
-    </div>
+    
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css" media="all">
+        <link rel="stylesheet" href="style.css" media="all">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Google Homepage</title>
+    </head>
 
-</form>
-</body>
+    <body>
+        <div class="flex">
+            <header>
+                <nav class="nav">
+                    <ul class="leftalign">
+                        <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                        <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+                    </ul>
+                    <ul class="rightalign">
+                        <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+                        <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+                        <li><a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"></a>
+                        <button class="signin">Sign In</button></li>
+                    </ul>
+                </nav>
+            </header>
 
+            <main class="center">
+                <img class="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+            </main>
+
+            <form>
+                <input  type="text" id="icons">
+                <button type="button" class="micbutton"></button>
+                <button type="button" class="magbutton"></button>
+             </form>
+
+             <ul class="center">
+                 <li><button class="searchbutton">Google Search</button></li>
+                 <li><button class="searchbutton">I'm Feeling Lucky</button></li>
+             </ul>
+
+             <footer>
+                 <ul class="footerleft">
+                     <li><a class="grey" href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></li>
+                     <li><a class="grey" href="https://smallbusiness.withgoogle.com/ce/overview2/?subid=us-en-et-g-aw-a-g4sb_test_3a!o2&gmbsrc=us-en_US-et-z-z-gmb-s-z-r~sb-g4sb_test_3a-u&utm_content=g4sb_test_3a&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter#!/">Business</a></li>
+                     <li><a class="grey" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+                 </ul>
+
+                 <ul class="footerright">
+                     <li><a class="grey" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+                     <li><a class="grey" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+                     <li><a class="grey" href="">Settings</a></li>
+                 </ul>
+             </footer>
+
+        </div>
+    </body>
 </html>
